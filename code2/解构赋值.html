@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /*
+        * 1.左右两边结构必须一样
+        * 2.右边必须是个东西
+        * 3.声明和赋值不能分开（必须在一句话里完成)
+        * */
+        let [{a,b},n3,[n4,n5],str] = [{a: 1,b: 2},3,[4,5],"789"]
+
+        console.log(a,b,n3,n4,n5,str);
+        // let {D,E} = {D: 8, E: 9};    //json的解构赋值的变量需要键一样
+        // console.log(D,E);
+
+        //错误
+        // let[a,b] = {a:1,b:2};
+        // let{a,b}={1,2};
+        // let [a,b];
+        // [a,b] = [1,2];
+    </script>
+</head>
+<body>
+
+</body>
+</html>

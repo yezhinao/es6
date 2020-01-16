@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        // let arr1 = [1,2,3];
+        // let arr2 = [4,5,6];
+        // let arr3 = [...arr1,...arr2];
+        // alert(arr3);
+
+
+        function show(a,b,...args)
+        {
+            alert(a);
+            alert(b);
+            alert(...args);//能返回到参数扩展的第一个参数
+            alert(args);//返回参数扩展的全部参数
+        }
+        show(1,2,3,4,5);
+    </script>
+</head>
+<body>
+
+</body>
+</html>
